@@ -1,0 +1,510 @@
+/* Reset some default browser styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: white;
+    padding-top:30px;
+    padding-left:200px;
+    padding-right:200px;
+    
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:20px;
+}
+
+/* Logo styling */
+.navbar-logo img {
+    height: 60px;
+    width: auto;
+}
+
+/* Menu styling */
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+
+.navbar-item {
+    list-style: none;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+}
+
+.navbar-link:hover {
+    color: #ddd;
+}
+
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Container for background image */
+.background-container {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-image: url('slid_2.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Overlay content container */
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background to make text more readable */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Heading and button styling */
+.overlay-content h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+.overlay-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.overlay-content button {
+    font-size: 2em;
+    padding: 10px 20px;
+    background-color: green; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.overlay-content button:hover {
+    background-color: orange; /* Button background color on hover */
+}
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top:40px;
+    text-align: center;
+}
+
+.content-wrapper h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.content-wrapper p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.packages-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    gap: 20px; /* Spacing between packages */
+}
+
+.package {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.package img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.package h3 {
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+}
+
+.package p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.package i {
+    margin-right: 5px;
+    color: #ff6600; /* Icon color */
+}
+
+.hero-section {
+    position: relative;
+    background-image: url('bg.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    margin-top:30px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.book-now {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.book-now:hover {
+    background-color: pink;
+}
+
+.blog-section {
+    margin-top:50px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.blog-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.blog-section p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.image-container {
+margin-top:50px;
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.image-item {
+    flex: 1; /* Each item takes equal space */
+    margin-right: 10px; /* Adjust spacing between items */
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover .overlay-text {
+    transform: translateY(0);
+}
+
+.travel-package {
+margin-top:40px;
+    background-color: black;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: auto;
+     font-size: 20px;
+}
+
+.travel-package h1 {
+padding-top:20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.description {
+padding-top:10px;
+    font-size: 20px;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 20px;
+    color: white;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.aboutheading p {
+    height:200px;
+    background-color:lightgrey;
+    padding:80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    
+}
+
+
+.about h1 {
+    font-size: 2.5rem;
+   
+}
+
+.about p {
+	
+    font-size: 1rem;
+    color: #323030;
+    max-width: 800px;
+    margin-left: 100px;
+}
+
+.about-info {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.about-img {
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.about-img img {
+margin-left:100px;
+    width: 500px;
+    height: 500px;
+    margin-top:-80px;
+    border-radius: 5px;
+    object-fit: contain;
+    border-color:black;
+    border-style:solid;
+}
+
+.about-info p {
+    font-size: 1.5rem;
+    margin: 0 20rem;
+    text-align: justify;
+}
+
+.team {
+    background-color:lightgrey;
+    height:400px;
+    margin-top: 40px;
+    padding:40px;
+    width:auto;
+    text-align:center;
+}
+
+.team p {
+	padding-top:30px;
+	font-size:45px;
+	font-weight:bold;
+}
+
+.team-container {
+padding-top:40px;
+margin-left:15%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.team-card {
+padding-top:40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-card h2 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.team-card h3 {
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 1.1em;
+}
+
+.team-card p {
+    color: #555;
+    font-size: 0.9em;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
+.contact {
+	background-color:lightgrey;
+	color:black;
+	height:150px;
+	width:auto;
+}
+
+.contact p{
+	padding:50px;
+	text-align:center;
+	font-size:1cm;
+	font-weight:bold;
+}
+
+
+.contact-form {
+    background-color: #fff;
+    padding: 50px;
+    padding-left:200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form p {
+	margin-top:20px;
+	font-weight:bold;
+	font-size:1cm;
+}
+.contact-form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-form td {
+    padding: 20px;
+}
+
+.contact-form label {
+    display: block;
+    
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    font-size:0.5cm;
+    margin-top: 5px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #218838;
+}
+
